@@ -1,0 +1,17 @@
+/* style.css */
+body {
+  font-family: sans-serif;
+  background: #fff;
+  color: #333;
+  padding: 25px;
+  transition: all 0.3s ease;
+}
+.container { max-width: 500px; margin: auto; }
+.controls button { margin: 15px; }
+#playlist { list-style: none; padding: 0; }
+#playlist li { cursor: pointer; padding: 15px; }
+#playlist li:hover { background: #f0f0f0; }
+body.dark {
+  background: #111;
+  color: #eee;
+}
